@@ -728,7 +728,12 @@ abstract class BaseFacebook
       return false;
     }
 
+	if (isset($response_params['expires'])) {
+		$this->setPersistentData('access_token_expires', time() + $response_params['expires']);
+	}
+
     return $response_params['access_token'];
+
   }
 
   /**

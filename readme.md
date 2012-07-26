@@ -1,6 +1,5 @@
-Facebook PHP SDK (v.3.1.1)
-==========================
-
+Facebook PHP SDK (v.3.1.1) Interpotential.com Update
+====================================================
 The [Facebook Platform](http://developers.facebook.com/) is
 a set of APIs that make your app more social
 
@@ -8,6 +7,10 @@ This repository contains the open source PHP SDK that allows you to access Faceb
 is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html)
 
+
+Purpose
+-------
+The purpose of this fork is to open access up the expiration time of access tokens
 
 Usage
 -----

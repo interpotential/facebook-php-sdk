@@ -40,7 +40,7 @@ class Facebook extends BaseFacebook
   }
 
   protected static $kSupportedKeys =
-    array('state', 'code', 'access_token', 'user_id');
+    array('state', 'code', 'access_token', 'user_id','access_token_expires');
 
   /**
    * Provides the implementations of the inherited abstract
